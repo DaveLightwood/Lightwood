@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Cloncurry Multi Skill Centre</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "Build/CMSC_Release_26_02_2020.json");
+    </script>
+  </head>
+  <body>
+    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+	<script>
+	//window.alert("mobile: " + UnityLoader.SystemInfo.mobile);
+	  window.onresize = doResize;
+	  doResize();
+	  function doResize() {
+	  document.body.style.margin = '0px';
+	   var cont = document.getElementById('unityContainer');
+	   /*
+	   if (window.innerHeight > window.innerWidth) {
+			cont.style.width = window.innerWidth + 'px';
+			cont.style.height = '100%';
+	   } else {*/
+			cont.style.width = '100%';
+			cont.style.height = window.innerHeight + 'px';
+	   //}
+	  }
+if (window.innerHeight < window.innerWidth && UnityLoader.SystemInfo.mobile) { //If portrait and mobile
+	window.alert("This game works best when your phone is landscape. Switch to landscape to get the most out of the game!");
+}
+	</script>
+  </body>
+</html>

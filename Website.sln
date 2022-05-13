@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiskillCentre", "MultiskillCentre", "{F7EC35C1-ECFE-4A03-A774-4F8E6DFE3C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{AC0FDAD9-88B4-49B4-AF89-A63E2A50553A}"
+	ProjectSection(SolutionItems) = preProject
+		MultiskillCentre\Game\Game.zip = MultiskillCentre\Game\Game.zip
+		MultiskillCentre\Game\index.html = MultiskillCentre\Game\index.html
+		MultiskillCentre\Game\Build\UnityLoader.js = MultiskillCentre\Game\Build\UnityLoader.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCBE8812-F78F-4992-BA20-AD72E5FBA97D}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		lightwoodsolutions.PNG = lightwoodsolutions.PNG
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{446C1B64-4D4D-4D80-8BA8-F655163A54F9}"
+	ProjectSection(SolutionItems) = preProject
+		MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.data.unityweb = MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.data.unityweb
+		MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.json = MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.json
+		MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.wasm.code.unityweb = MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.wasm.code.unityweb
+		MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.wasm.framework.unityweb = MultiskillCentre\Game\Build\CMSC_Release_26_02_2020.wasm.framework.unityweb
+		MultiskillCentre\Game\Build\UnityLoader.js = MultiskillCentre\Game\Build\UnityLoader.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC0FDAD9-88B4-49B4-AF89-A63E2A50553A} = {F7EC35C1-ECFE-4A03-A774-4F8E6DFE3C87}
+		{446C1B64-4D4D-4D80-8BA8-F655163A54F9} = {AC0FDAD9-88B4-49B4-AF89-A63E2A50553A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C175E2-EA31-44A4-A68A-E40CE4054AFA}
+	EndGlobalSection
+EndGlobal
